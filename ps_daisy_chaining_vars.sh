@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 ####################################
+# Snomed file location
+export SNOMED_FILE_LOCATION="/path/to/file/uk_sct2cl_32.10.0_20220216000001Z.zip"; # change
+
+####################################
 # Enable daisy chaining
 
 export PS_DAISY_CHAINING_ACTIVE="true"

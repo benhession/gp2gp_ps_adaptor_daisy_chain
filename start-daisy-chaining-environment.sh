@@ -37,7 +37,7 @@ docker-compose up db_migration
 docker-compose rm -f db_migration
 
 cd ./snomed-database-loader
-./load_release-postgresql.sh uk_sct2cl_32.10.0_20220216000001Z.zip
+./load_release-postgresql.sh ${SNOMED_FILE_LOCATION}
 cd ../snomed-immunization-loader 
 ./load_immunization_codes.sh snomed_immunization_codes.csv
 cd ..
