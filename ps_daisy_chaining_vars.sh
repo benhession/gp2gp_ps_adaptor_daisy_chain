@@ -2,7 +2,7 @@
 
 ####################################
 # Snomed file location
-export SNOMED_FILE_LOCATION="/path/to/file/uk_sct2cl_32.10.0_20220216000001Z.zip"; # change
+export SNOMED_FILE_LOCATION="/path/to/file/uk_sct2mo_35.5.0_20230215000001Z.zip"; # change
 
 ####################################
 # Enable daisy chaining
