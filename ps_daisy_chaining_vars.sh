@@ -52,3 +52,4 @@ export MHS_AMQP_PASSWORD="admin";
 # LOGGING
 
 export PS_LOGGING_LEVEL="DEBUG";
+export LOG_LEVEL="DEBUG";

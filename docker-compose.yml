@@ -88,6 +88,7 @@ services:
       - PS_AMQP_PASSWORD
       - PS_AMQP_MAX_REDELIVERIES
       - PS_LOGGING_LEVEL
+      - LOG_LEVEL
     networks:
       - nia-daisy-chain
 
@@ -124,6 +125,7 @@ services:
       - GP2GP_AMQP_BROKERS
       - GP2GP_AMQP_USERNAME
       - GP2GP_AMQP_PASSWORD
+      - LOG_LEVEL
     networks:
       - nia-daisy-chain
 
